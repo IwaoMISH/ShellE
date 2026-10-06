@@ -24,6 +24,10 @@ ShellE は、Win32 API の `::ShellExecute` 関数の動作確認およびエラ
 * **Visual C++ 6.0:** `ShellE.dsp` / `ShellE.dsw`
 * **Visual Studio (2005 以降):** `.dsp` ファイルのソリューション変換を行ってビルド
 
+※ VC6 プロジェクトを最新の Visual Studio 環境へ移行・ビルドする手順の詳細については、以下の解説記事をご参照ください：
+* [VC6 の MFC プロジェクト（.dsp）を最新の Visual Studio へ移行・ビルドする方法](https://dev.mish.work/wordpress/2026/09/09/migrating-vc6-mfc-project-to-vc20xx/)
+
+
 ## 使い方
 
 1. ビルドして生成された `ShellE.exe` を起動します。
